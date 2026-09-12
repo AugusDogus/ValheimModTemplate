@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "AugusDogus",
+  "classifications": [
+    "Valheim",
+    "BepInEx"
+  ],
+  "identity": "AugusDogus.ValheimMod",
+  "name": "Valheim BepInEx mod",
+  "shortName": "valheim-mod",
+  "sourceName": "ValheimMod",
+  "preferNameDirectory": true,
+  "sources": [
+    {
+      "exclude": [
+        ".git/**",
+        ".template.config/**",
+        "**/bin/**",
+        "**/obj/**",
+        "artifacts/**",
+        "**/__pycache__/**",
+        "Environment.props"
+      ]
+    }
+  ]
+}

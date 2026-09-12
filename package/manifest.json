@@ -1,0 +1,9 @@
+{
+  "name": "ValheimMod",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/AugusDogus/ValheimMod",
+  "description": "A client-side Valheim mod.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2350"
+  ]
+}
