@@ -18,8 +18,8 @@
         "**/bin/**",
         "**/obj/**",
         "artifacts/**",
-        "**/__pycache__/**",
-        "Environment.props"
+        "Environment.props",
+        "node_modules/**"
       ]
     }
   ]

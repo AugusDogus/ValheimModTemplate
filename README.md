@@ -10,11 +10,12 @@ from a release ZIP into `BepInEx/plugins/ValheimMod/`, then start the game modde
 ## Build
 
 ```sh
+bun install --frozen-lockfile
 dotnet build src/ValheimMod/ValheimMod.csproj -c Release -t:Package \
   -p:GameDir="/path/to/Valheim" \
   -p:BepInExDir="/path/to/profile/BepInEx"
 ```
 
-Requires .NET SDK 8 and Python 3.10+. Output: `artifacts/ValheimMod-1.0.0.zip`.
+Requires .NET SDK 8 and Bun 1.4.1+. Output: `artifacts/ValheimMod-1.0.0.zip`.
 
 [Development and releases](docs/DEVELOPMENT.md) · [Repository layout](docs/REPOSITORY.md) · [Using the template](docs/TEMPLATE.md)
