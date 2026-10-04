@@ -22,5 +22,15 @@
         "node_modules/**"
       ]
     }
-  ]
+  ],
+  "symbols": {
+    "copyrightYear": {
+      "type": "generated",
+      "generator": "now",
+      "parameters": {
+        "format": "yyyy"
+      },
+      "replaces": "2026"
+    }
+  }
 }
